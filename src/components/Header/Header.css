@@ -1,0 +1,19 @@
+.header{
+      
+      height: 80px;
+      background-color: #1C2B35;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.header p{
+      font-size: 25px;
+      font-weight: bold;
+      
+}
+@media screen and(max-width:600) {
+      .product-container{
+            grid-template-columns: repeat(2 1fr);
+      }
+}
