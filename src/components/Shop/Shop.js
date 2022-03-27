@@ -48,7 +48,7 @@ const Shop = () => {
 
 
                         <div className='click-button'>
-                              <button onClick='genaretpin()'>Choose 1 for me</button>
+                              <button >Choose 1 for me</button>
                         </div>
                         <div className='delete-button'>
                               <button >Choose Again</button>
