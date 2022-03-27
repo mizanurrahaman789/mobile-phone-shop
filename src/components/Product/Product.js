@@ -24,11 +24,7 @@ const Product = ({ product, handleAddToCart }) => {
                   </button>
             </div>
 
-
-
       );
-
-
 
 };
 
