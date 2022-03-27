@@ -19,6 +19,10 @@ const Shop = () => {
             const newCart = [...cart, product];
             setCart(newCart)
       }
+
+
+
+
       return (
             <div className='shop-container'>
                   <div className='product-container'>
@@ -44,18 +48,21 @@ const Shop = () => {
 
 
                         <div className='click-button'>
-                              <button >Click me</button>
+                              <button onClick='genaretpin()'>Choose 1 for me</button>
                         </div>
                         <div className='delete-button'>
-                              <button >Deleted</button>
+                              <button >Choose Again</button>
                         </div>
 
                   </div>
 
 
             </div>
+
+
       );
 };
 
 
 export default Shop;
+

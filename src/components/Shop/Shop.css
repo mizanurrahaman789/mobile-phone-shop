@@ -27,11 +27,7 @@
             margin: 100px 20px;
             
       }
-      .cart-container{
-            display: grid;
-            grid-template-columns: 1fr;
-            background-color: blanchedalmond;
-      }
+      
 }
 
 
@@ -53,6 +49,7 @@
       }
      
 }
+
 /* @media only screen and (min-width: 0px) and (max-width: 319px) {
       .product-container{
             display: grid;
