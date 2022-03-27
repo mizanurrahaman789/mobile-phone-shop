@@ -6,17 +6,6 @@ const Cart = ({ cart }) => {
       const { name, img, price } = cart;
       console.log(name, img)
 
-
-      // let total = 0;
-      // let img = 0;
-      // let id = 0;
-      // for (const product of cart) {
-      //       total = total + product.price;
-      //       img = img + product.img;
-      //       id = id + product.id;
-      // }
-
-
       return (
 
 
