@@ -4,13 +4,14 @@ import './Cart.css'
 const Cart = ({ cart }) => {
       // const { cart } = props;
       const { name, img, price } = cart;
-      console.log(name, img)
+
 
       return (
 
 
 
             <div className='cart'>
+
                   <div className='choose-now'>
                         <img src={img} alt=''></img>
                         <p>Name: {name}</p>

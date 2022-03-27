@@ -1,4 +1,3 @@
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
@@ -20,9 +19,6 @@ const Shop = () => {
             setCart(newCart)
       }
 
-
-
-
       return (
             <div className='shop-container'>
                   <div className='product-container'>
@@ -38,6 +34,8 @@ const Shop = () => {
                         <div className='selected'>
                               <h3>Selected Choose</h3>
                         </div>
+
+
                         {
                               cart.map(cart => <Cart
                                     key={cart.id}
@@ -57,7 +55,7 @@ const Shop = () => {
                   </div>
 
 
-            </div>
+            </div >
 
 
       );
